@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>360° Video Example</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-videosphere src="#video" rotation="0 -90 0"></a-videosphere>
+        <a-assets>
+            <video id="video" autoplay loop="true" src="360Test2_injected.mov"></video>
+        </a-assets>
+    </a-scene>
+</body>
+</html>
